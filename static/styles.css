@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+.results {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 100%; /* Ensure the container doesn't expand beyond its parent */
+    overflow-wrap: break-word; /* Break long words to prevent overflow */
+    word-wrap: break-word; /* Older alternative for word breaking */
+    word-break: break-word; /* Ensures words are broken if too long */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.results pre {
+    background-color: #f4f4f4;
+    color: #191919;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto; /* Allow horizontal scrolling for long content */
+    white-space: pre-wrap; /* Ensure that code blocks wrap within the container */
+    max-width: 100%; /* Constrain code blocks to the container width */
+}
+
+.results h2, .results p {
+    max-width: 100%; /* Make sure all elements fit inside the container */
+    overflow-wrap: break-word; /* Prevent overflow for long words */
+    word-wrap: break-word; /* Break long words to fit within the container */
+}
+
+
+
